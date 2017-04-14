@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.hubspot</groupId>
         <artifactId>basepom</artifactId>
-        <version>12.5</version>
+        <version>15.13</version>
     </parent>
 
     <groupId>com.hubspot.jackson</groupId>
     <artifactId>jackson-datatype-protobuf</artifactId>
-    <version>0.9.4-SNAPSHOT</version>
+    <version>0.9.5-SNAPSHOT</version>
     <description>Jackson Module that adds support for reading/writing protobufs</description>
     <url>https://github.com/HubSpot/jackson-datatype-protobuf</url>
 
@@ -91,7 +91,7 @@
                                     <pluginExecutionFilter>
                                         <groupId>com.comoyo.maven.plugins</groupId>
                                         <artifactId>protoc-bundled-plugin</artifactId>
-                                        <versionRange>[1.4.47,)</versionRange>
+                                        <versionRange>[1.4.60,)</versionRange>
                                         <goals>
                                             <goal>run</goal>
                                         </goals>
@@ -107,9 +107,9 @@
                 <plugin>
                     <groupId>com.comoyo.maven.plugins</groupId>
                     <artifactId>protoc-bundled-plugin</artifactId>
-                    <version>1.4.47</version>
+                    <version>1.4.60</version>
                     <configuration>
-                        <protobufVersion>2.5.0</protobufVersion>
+                        <protobufVersion>2.6.1</protobufVersion>
                     </configuration>
                 </plugin>
             </plugins>

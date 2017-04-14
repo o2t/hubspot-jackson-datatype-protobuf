@@ -10,6 +10,8 @@ import com.google.protobuf.ExtensionRegistry;
 import com.google.protobuf.ExtensionRegistry.ExtensionInfo;
 import com.hubspot.jackson.datatype.protobuf.ExtensionRegistryWrapper;
 import com.hubspot.jackson.test.util.TestExtensionRegistry;
+import com.hubspot.jackson.test.util.TestExtensions;
+import com.hubspot.jackson.test.util.TestProtobuf;
 import com.hubspot.jackson.test.util.TestProtobuf.AllFields;
 import org.junit.BeforeClass;
 import org.junit.Test;
